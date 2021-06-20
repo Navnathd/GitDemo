@@ -33,7 +33,7 @@ public class HomePage extends Base {
 		//to access the class 1)Inhetitate
 		//2)creating object of that class invok the method
 		LandingPage lp=new LandingPage(driver);
-		
+		System.out.println("nikhil");
 		lp.getLogin().click();
 		
 		
