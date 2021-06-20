@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 54.63 s <<< FAILURE! - in TestSuite
+cucumberoption.TestRunner.feature[Login into Application](1)  Time elapsed: 52.564 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='qeury']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NIKHIL', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Nikhil\AppData\Local\Temp\rust_mozprofileynJMbM, moz:geckodriverVersion=0.28.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=89.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=33856.0, browserName=firefox, moz:buildID=20210614221319, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 89fe5eb3-a4d8-4481-b9d3-dfb7fb77b773
+*** Element info: {Using=name, value=qeury}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='qeury']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NIKHIL', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Nikhil\AppData\Local\Temp\rust_mozprofileynJMbM, moz:geckodriverVersion=0.28.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=89.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=33856.0, browserName=firefox, moz:buildID=20210614221319, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 89fe5eb3-a4d8-4481-b9d3-dfb7fb77b773
+*** Element info: {Using=name, value=qeury}
+
